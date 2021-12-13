@@ -1,0 +1,10 @@
+RegisterCommand('help', function() 
+   TriggerEvent('chat:addMessage',{
+       color = {255,0,0},
+       multiline = true,
+       args = {'[SERVER]', 'Join the discord for help, https://discord.gg/9qYyk4HSG7'}
+    }]
+end) --   -- /help
+
+
+-- [SERVER] : Join the discord for help, https://discord.gg/9qYyk4HSG7  
